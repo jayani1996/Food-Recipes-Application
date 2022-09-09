@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Food Recipes.exe" version="1.0.0.0" publicKeyToken="eb5ff2d3e6f2328b" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Food Recipes" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Food Recipes.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Food Recipes.exe" size="1700824">
+      <assemblyIdentity name="Food Recipes" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>OTzFlNlRPQ2Jf/B9EU5XZFVJERXDAOjzCwcyHObJwWk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="itextsharp.dll" size="3485696">
+      <assemblyIdentity name="itextsharp" version="5.0.5.0" publicKeyToken="8354AE6D2174DDCA" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vrXCXrX2WcuyV08+rd2jXFsY6GBVjarEUztO2Y4pvVU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=DESKTOP-AM7OELU\User" issuerKeyHash="378c9461c9083376c60e2312187ba7e1a3b349f4" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jm0uhdcyCQVbZwtsFXiK/ukaaTeWGuAq0hnQB0+8Bcg=</DigestValue></Reference></SignedInfo><SignatureValue>WZ4FZccTfCyujIKdlJvuMDJI9Ov59n6+sDa2dgjN/eZjSFwr4M0M9JzJcrZU44QR7rtF3YLnW7FTo4oLNKhSu6Ymu8KZLvruzObL6RHVDSlGf01m0oWJpX2qDO8mGxoP3+9gwOgVqWbcSQCnYtLfZV3yjVFvvN6xAO2U5cIuiyI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>8UTxRIlFJKxmM7rh/uxsTIXWWX5t2ZTrhdDbnSV8Fi5j1i1UYfxbC9kD4KS4rLvVNhg/TWYB84ByqFB8OZ4pNBzq3yFw3OUMR93HcC24QqflyG4DmIctj2mmT3pdF7oerRYlTTvTAE7tjyTbo7KDswybCH/MnEBZbPXVAqFZ7hk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c805bc4f07d019d22ae01a9637691ae9fe8a78156c0b675b050932d7852e6d8e" Description="" Url=""><as:assemblyIdentity name="Food Recipes.exe" version="1.0.0.0" publicKeyToken="eb5ff2d3e6f2328b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-AM7OELU\User</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>J3RIczu0nZT220HIEfYiPpcvo2X47OwV6HDi91EUa6M=</DigestValue></Reference></SignedInfo><SignatureValue>nanPKrN5EmoXvXDl2TN+UtpDnKvUgn2oxy574KSwm1KHu1I4B/GNJhCz75VGhgi25NsqDovDrmFL3U7Z4k+vPcD9G9oi81ULkfVqkRSEH02La3D90aj34g/KREYSvDwQ/kCP7z1y5lLIN5pwUgtP0/035Tw8AP27sdTXOiZiKvg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>8UTxRIlFJKxmM7rh/uxsTIXWWX5t2ZTrhdDbnSV8Fi5j1i1UYfxbC9kD4KS4rLvVNhg/TWYB84ByqFB8OZ4pNBzq3yFw3OUMR93HcC24QqflyG4DmIctj2mmT3pdF7oerRYlTTvTAE7tjyTbo7KDswybCH/MnEBZbPXVAqFZ7hk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQVDcK+ldDhKtBwImG1tbP8DANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigARABFAFMASwBUAE8AUAAtAEEATQA3AE8ARQBMAFUAXABVAHMAZQByMB4XDTIyMDgyNjA2NDU0OFoXDTIzMDgyNjEyNDU0OFowMzExMC8GA1UEAx4oAEQARQBTAEsAVABPAFAALQBBAE0ANwBPAEUATABVAFwAVQBzAGUAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA8UTxRIlFJKxmM7rh/uxsTIXWWX5t2ZTrhdDbnSV8Fi5j1i1UYfxbC9kD4KS4rLvVNhg/TWYB84ByqFB8OZ4pNBzq3yFw3OUMR93HcC24QqflyG4DmIctj2mmT3pdF7oerRYlTTvTAE7tjyTbo7KDswybCH/MnEBZbPXVAqFZ7hkCAwEAATANBgkqhkiG9w0BAQsFAAOBgQCMEs7zE0T+O5ztbqNHnZvKbqKx/4AhMJ4Ly8hcQ85yiuuTMxpbEFfRASld6Pm5l8aJbi3cPZ3xnj2XvGEPcVPcfIy1m9AAm0mos0T7aAEc1OpRXvT8RZWu//xcYhk4cumzfz8JNfa1hJdETnIaFycY7iYcSrM3++/GUFysXo4deA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
